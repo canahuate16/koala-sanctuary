@@ -93,6 +93,31 @@ nav {
     padding: 20px
 }
 
-h4 {
+.services h4 {
+  padding:5px;
     font-weight: 600;
+    margin-top: 25px;
+    text-transform: uppercase;
 }
+
+.title::before {
+content: '';
+background:green;
+height: 5px;
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+transform: translateY(63px);
+}
+.title::after {
+  content: '';
+  background:green;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(8px);
+  margin-bottom: 40px;
+  }
