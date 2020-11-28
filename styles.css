@@ -34,41 +34,56 @@ nav {
   font-size: 30px !important;
 }
 
-
 /*-------- Banner Section ------------*/
 
 #banner {
-    background-image: linear-gradient(to right, #90ee90, #006400);
-    color: #fff;
-    padding-top: 5%;
+  background-image: linear-gradient(to right, #90ee90, #006400);
+  color: #fff;
+  padding-top: 5%;
 }
 .koala-title {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
 }
 .play-btn {
-    width: 40px;
-    margin: 20px;
+  width: 40px;
+  margin: 20px;
 }
 
 #banner {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .img-fluid {
-    border-radius: 75%;     
+  border-radius: 75%;
 }
 
 .bottom-img {
-    width: 100%;
+  width: 100%;
 }
 
 .rescue-img {
-border-radius: 50%;
+  border-radius: 50%;
+  width: 250px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.donate-img {
+  border-radius: 30%;
+  width: 250px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.sad-img {
+  border-radius: 45%;
+  width: 350px;
+  margin-top: 20px;
+  margin-right: 10px;
 }
 
 #services {
-    padding: 80px 0;
+  padding: 80px 0;
 }
