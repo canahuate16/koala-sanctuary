@@ -78,12 +78,21 @@ nav {
   margin-right: 10px;
 }
 .sad-img {
-  border-radius: 45%;
-  width: 350px;
+  border-radius: 50%;
+  width: 250px;
+  height: 260px;
   margin-top: 20px;
   margin-right: 10px;
 }
 
 #services {
   padding: 80px 0;
+}
+
+.services {
+    padding: 20px
+}
+
+h4 {
+    font-weight: 600;
 }
