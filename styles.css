@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #90ee90, #006400);
+    padding: 0!important;
+}
