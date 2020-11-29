@@ -90,32 +90,32 @@ nav {
 }
 
 .services {
-    padding: 20px
+  padding: 20px;
 }
 
 .services h4 {
-  padding:5px;
-    font-weight: 600;
-    margin-top: 25px;
-    text-transform: uppercase;
+  padding: 5px;
+  font-weight: 600;
+  margin-top: 25px;
+  text-transform: uppercase;
 }
 .title {
   font-weight: 600;
 }
 
 .title::before {
-content: '';
-background:green;
-height: 5px;
-width: 200px;
-margin-left: auto;
-margin-right: auto;
-display: block;
-transform: translateY(63px);
+  content: "";
+  background: green;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
 }
 .title::after {
-  content: '';
-  background:green;
+  content: "";
+  background: green;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -123,17 +123,14 @@ transform: translateY(63px);
   display: block;
   transform: translateY(8px);
   margin-bottom: 40px;
-  }
+}
 
-  #services .btn-primary {
-    box-shadow:none;
-    padding: 8px 25px;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to right, #90ee90, #006400);
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #90ee90, #006400);
+  
+}
 
-  }
-
-  .btn {
-    text-align: center;
-  }
