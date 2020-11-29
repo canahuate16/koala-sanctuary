@@ -99,6 +99,9 @@ nav {
     margin-top: 25px;
     text-transform: uppercase;
 }
+.title {
+  font-weight: 600;
+}
 
 .title::before {
 content: '';
@@ -120,4 +123,17 @@ transform: translateY(63px);
   display: block;
   transform: translateY(8px);
   margin-bottom: 40px;
+  }
+
+  #services .btn-primary {
+    box-shadow:none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #90ee90, #006400);
+
+  }
+
+  .btn {
+    text-align: center;
   }
