@@ -151,3 +151,27 @@ nav {
 #about-us ul li {
   margin: 10px 0;
 }
+
+/*-------------------------testimonial section----------------*/
+
+#testimonial {
+  margin: 100px 0;
+}
+
+.testimonials {
+  border-left: 4px solid green;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  margin: 0 10;
+}
+
+.user-details {
+  display: inline-block; /*Allows the text to display in line, next to the img*/
+  font-size: 12px;
+}
