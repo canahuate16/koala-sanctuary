@@ -180,7 +180,7 @@ nav {
 /*------------------------- Social media------------------------------------*/
 
 #social-media{
-  background: whitesmoke;
+  background: white;
   padding: 100px 0;
 }
 
@@ -191,56 +191,33 @@ nav {
 }
 
 
-.fa:hover {
-    opacity: 0.8;
-    transform: translateY(-10px); /* moves icons slightly up (y-axis) */
+.social-icons img {
+width: 60px;
+transition: 0.5s;
 }
 
-.fa {
-  padding: 30px;
-  font-size: 30px;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 30%;
-  transition: 0.5s;
-  border-radius: 50%;
+.social-icons a:hover img{
+  transform: translateY(-10px);
 }
+/*---------------------Footer-----------------------*/
 
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
+footer{
+  background-image: linear-gradient(to right, #90ee90, #006400);
   color: white;
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.footer-img {
+  width: 4%;
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.footer-text {
+  font-weight: 400;
 }
