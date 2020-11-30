@@ -26,19 +26,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a>
+            <a class="nav-link" href="#top">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">VISIT US</a>
+            <a class="nav-link" href="#services">DONATE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">JOIN THE CAUSE</a>
+            <a class="nav-link" href="#about-us">JOIN THE CAUSE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">DONATE</a>
+            <a class="nav-link" href="#testimonial">TESTIMONIALS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -126,7 +126,8 @@
   <section id="testimonial">
     <div class="container">
       <h1 class="title text-center">DONNORS VOICE</h1>
-      <div class="row offset-1">  <!--allows to offset both sides by 1 space if mds did not total 12-->
+      <div class="row offset-1">
+        <!--allows to offset both sides by 1 space if mds did not total 12-->
         <div class="col-md-6 testimonials">
           <p>"I am a proud supporter and I sincerely love seen my adopted koala Jackson grow and get better every
             month."</p>
@@ -160,31 +161,40 @@
   </section>
 
   <!-------------------------Footer------------------->
-  <footer>
-    <img src="images/koala_vector.png" class= "footer-img">
+  <footer id ="footer">
+    <img src="images/koala_vector.png" class="footer-img">
     <div class="container">
       <div class="row">
-        <div class= "col-md-4 footer-box">
-          <img src= "images/Koala_logo.PNG">
-          <p class ="footer-text"> Meet koalas and engage with them in Koala Sanctuary's beautiful, natural settings. 
-            Experience happy, healthy animals as well as the opportunity to support conservation and enjoy educational opportunities.</p>
+        <div class="col-md-4 footer-box">
+          <img src="images/Koala_logo.PNG">
+          <p class="footer-text"> Meet koalas and engage with them in a beautiful, natural setting. 
+            Experience the opportunity to support conservation and enjoy educational
+            opportunities.</p>
         </div>
-        <div class= "col-md-4 footer-box">
-         <p><b>CONTACT US</b></p>
-         <p>Koala National Preservation, Philadelphia</p>
-         <p>(267)-123-4758</p>
-         <P>savekoalalives@preservation.org</P>
+        <div class="col-md-4 footer-box">
+          <p><b>CONTACT US</b></p>
+          <p><i class="fa fa-map-marker"></i> Koala National Preservation, Philadelphia</p>
+          <p><i class="fa fa-phone"></i> (267)-123-4758</p>
+          <p><i class="fa fa-envelope"></i> ksanctuary@save.org</p>
+        </div>
+        <div class="col-md-4 footer-box">
+          <p><b>SUBSCRIBE TO NEWSLETTER</b></p>
+          <input type= "email" class="form-control" placeholder="Your Email">
+          <button type="button" class = " btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright"> Website created for practice purposes | Not real people or organization</p>
+    </div>
 
-        </div>
-      </div>
-      </div>
-    
   </footer>
+<!---------------------------------Smooth Scroll----------------------------->
 
+<script src="smooth-scroll.js"></script>
 
-
-
-
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 
 
